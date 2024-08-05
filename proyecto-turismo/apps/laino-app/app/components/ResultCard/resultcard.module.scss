@@ -1,0 +1,49 @@
+.containerResult {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  width: 65%;
+  gap: 0px;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cardubicacion {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+.cardinteres {
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+.cardmapa {
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
